@@ -1,0 +1,6 @@
+@import "tailwindcss";
+
+@theme {
+  --font-antonio: 'Antonio', sans-serif;
+  --font-sans: 'Inter', 'Roboto', 'Helvetica Neue', 'Arial Nova', 'Nimbus Sans', Arial, sans-serif;
+}

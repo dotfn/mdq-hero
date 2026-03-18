@@ -1,0 +1,21 @@
+---
+import { CanvasBalls } from "@/components/CanvasBalls";
+import background from "@/assets/background.jpg";
+import Hero from "@/components/Hero.astro";
+---
+
+<div class="relative h-full font-sans shadow-inner">
+  <img
+    class="fixed inset-0 w-full h-full object-cover -z-10"
+    src={background.src}
+    alt=""
+    fetchpriority="high"
+  />
+  <Hero />
+
+  <CanvasBalls client:load />
+</div>
+
+<style is:global>
+  @reference "../styles/global.css";
+</style>

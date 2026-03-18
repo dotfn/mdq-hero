@@ -1,0 +1,97 @@
+---
+import faro from '@/assets/faro.svg';
+import card from '@/assets/lobo-bw.svg';
+---
+
+<div class="absolute inset-0 flex flex-col p-10 pointer-events-none">
+
+  {/* TOP BAR */}
+  <div class="flex w-full items-center justify-center">
+    <a href="/" class="text-6xl font-bold leading-none transition-text duration-300 tracking-[-2px] pointer-events-auto z-9 text-white hover:text-cyan-950">
+      ●fn
+    </a>
+
+    <div class="flex-1 flex gap-[2em]" />
+
+    <div class="flex flex-1 justify-end items-end text-right text-white">
+      <img class="h-10" src={faro.src} alt="Faro" />
+    </div>
+  </div>
+
+  <div class="h-15" />
+
+  {/* INFO */}
+  <div class="flex w-full items-start justify-center">
+    <p class="flex-1 text-[12px] leading-[1.5em] text-white">
+      <b>Nicolas Jimenez</b>
+      <br />
+      Developer | Multimedia Designer
+      <br />
+      <span class="block mt-4 max-w-8 border-b-2 border-white"></span>
+    </p>
+
+    <div class="w-2.5" />
+
+    <p class="w-0.5 mr-3.5 flex z-99 text-[14px] font-bold font-mono leading-[100%] text-right text-white whitespace-nowrap">
+      <a href="
+      /Hola.html
+      "
+class="
+pointer-events-auto
+transition-text duration-500
+
+hover:text-cyan-950
+"
+      >
+      S<br />
+      O<br />
+      N<br />
+      O<br />
+      D<br />
+      O<br />
+      S<br />
+      &nbsp;<br />
+      &nbsp;<br />
+      ●
+    </a>
+    </p>
+    
+  </div>
+
+  <div class="h-2.5" />
+
+  {/* HERO BOTTOM */}
+  <div class="flex flex-1 flex-col items-end justify-end  font-antonio [drop-shadow:0_0_10px_rgba(255,255,255,0.5)]">
+    <img
+      class="max-w-36 sm:max-w-56 drop-shadow-2xl z-99"
+      src={card.src}
+      alt="Lobo"
+    />
+
+    <p class="m-0 text-[100px] sm:text-[140px] leading-[34%] text-right font-black tracking-[-10px] text-white">
+      MDQ
+    </p>
+  </div>
+
+  <div class="h-15" />
+
+  {/* FOOTER */}
+  <div class="flex w-full items-end justify-center pointer-events-auto">
+    <p class="flex-1 whitespace-nowrap text-[12px] leading-[1.5em] text-white">
+      Mar del plata, Buenos Aires, Argentina.
+      <br />
+      <b>Waiting for you.</b>
+    </p>
+
+    <div class="w-2.5" />
+
+    <p class="flex-1 text-center text-[16px] font-bold leading-[1em] tracking-[-0.5px] text-white font-antonio whitespace-nowrap">
+      2026
+    </p>
+
+    <div class="w-2.5" />
+
+    <p class="flex-1 text-right text-[12px] leading-[1em] text-white"></p>
+  </div>
+
+</div>
